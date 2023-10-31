@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -9,6 +11,10 @@
   --tw-gradient-to: #6366f1;
   --tw-gradient-from: #a855f7;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 #root {

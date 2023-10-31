@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   root: true,
   env: { browser: true, es2020: true },
   extends: [
@@ -18,5 +18,6 @@ export default {
     'simple-import-sort/exports': 'error',
     'react/prop-types': ['off'],
     'react/no-unescaped-entities': ['off'],
+    'react/jsx-uses-vars': ['error'],
   },
-}
+};

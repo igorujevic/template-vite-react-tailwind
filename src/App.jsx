@@ -1,10 +1,11 @@
-import ReactSvg from './assets/react.svg';
+import MainContainer from './layout/MainContainer';
 
 function App() {
   return (
-    <div className="simple-gradient flex h-screen flex-col items-center justify-center gap-2">
-      <h1 className="text-6xl font-bold">Simple Template</h1>
-      <img src={ReactSvg} alt="react" className="w-20" />
+    <div className="flex h-screen flex-col">
+      <header>header</header>
+      <MainContainer>main container</MainContainer>
+      <footer>footer</footer>
     </div>
   );
 }
